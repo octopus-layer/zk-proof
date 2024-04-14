@@ -1,3 +1,9 @@
-import { Add } from './Add.js';
+import { Whistle, WhistleProof, verificationKey } from './Whistle';
 
-export { Add };
+const deployProof = {
+    proof: Whistle,
+    proofType: WhistleProof,
+    verificationKey: verificationKey
+}
+
+export { deployProof };
